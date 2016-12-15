@@ -1,0 +1,23 @@
+{
+  "name": "url-shortener-microservice",
+  "version": "1.0.0",
+  "description": "A URL shortener microservice using NodeJS, Express, MongoDB",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexArcanum/url-shortener-microservice.git"
+  },
+  "author": "Aleksandar Ivanov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexArcanum/url-shortener-microservice/issues"
+  },
+  "homepage": "https://github.com/AlexArcanum/url-shortener-microservice#readme"
+}
