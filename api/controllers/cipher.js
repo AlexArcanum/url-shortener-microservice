@@ -19,14 +19,14 @@ function baseToInt(string) {
   var decoded = 0;
 
   while (string) {
-    var index = codeString.indexOf(str[0]);
-    var power = str.length - 1;
+    var index = codeString.indexOf(string[0]);
+    var power = string.length - 1;
     decoded += index * (Math.pow(base, power));
-    str = str.substring(1);
+    string = string.substring(1);
   }
 
   return decoded;
 }
 
-module.exports.intToBase = intToBase;
-module.exports.baseToInt = baseToInt;
+module.exports.encode = intToBase;
+module.exports.decode = baseToInt;
